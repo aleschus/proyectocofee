@@ -10,4 +10,35 @@
 .carousel-inner{
     max-height: 39rem;
 }
+.form {
+    grid-area: form;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form h3{
+    font-size: 2rem;
+}
+.form div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    height: 2.5rem;
+    width: 350px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #c6c6c6;
+}
 
+.form input[type=submit]:hover{
+    background-color: black;
+    color: white;
+}
+
+.ubicacion{
+    display: flex;
+   margin: auto;
+}
